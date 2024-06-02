@@ -2,9 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>IT-Assignment-01</title>
+    <title>IT-Assignment-03</title>
+
+    <link rel="stylesheet" href="assets/normalize-css.css">
+
+    <style>
+
+        section{
+            width: 100vw;
+            height: 100vh;
+            background: #74e0c7;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+        section>div{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        section>div>div{
+
+            width: 250px;
+            height: 200px;
+            background: black;
+            text-align: center;
+            border: 1px solid black;
+            margin: 3rem;
+            position: relative;
+        }
+
+        a{
+            position: absolute;
+            color: white;
+            font-size: 20px;
+            top: 5rem;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        section>div>div:hover{
+            background: rgba(0, 0, 0, 0.64);
+            transform: scale(1.1);
+            transition: 1s ease;
+        }
+
+    </style>
+
 </head>
 <body>
+
+<section>
+
+    <h1>IT-Assignment-01</h1>
+
+    <div>
+        <div><a href="https://www.gloomaps.com/yYKWbyRvgA">Sitemap</a></div>
+        <div><a href="https://drive.google.com/file/d/1SoYIxmULLyk2Z8FRAOWn6EarRlirAYmY/view?usp=share_l ink">Wireframe</a></div>
+        <div><a href="https://www.figma.com/file/nNuyLlQWpJ693r6wCsHuvT/My-Portfolio?type=design&node- id=0%3A1&mode=design&t=Vpp7yokAY8BOkTCR-1">Mock-up</a></div>
+    </div>
+
+</section>
 
 </body>
 </html>
